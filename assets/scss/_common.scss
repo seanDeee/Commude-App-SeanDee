@@ -1,0 +1,371 @@
+/*********************************
+
+_common.scss
+
+*********************************/
+
+.clearfix::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.pad-b-5{
+    padding-bottom: 5px;
+}
+
+.visible {
+    opacity: 1 !important;
+}
+
+sliderForPc {
+    position: relative;
+}
+
+.img-center {
+    margin: 0 auto;
+    display: block;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.osInnerContainer {
+    margin: 35px 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+
+.scrollNavi__current {
+    margin-top: 30px;
+    width: 25px;
+    height: 79px;
+    position: relative;
+}
+
+.scrollNavi__current p.scrollNavi__current--border {
+    top: 11px;
+    right: 12px;
+    width: 1px;
+    height: 68px;
+    background: #1b1d1f;
+    padding-bottom: 8px;
+}
+
+.scrollNavi__current p.scrollNavi__current--circle {
+    top: 0;
+    right: 3px;
+    width: 17px;
+    height: 17px;
+    background: #fff;
+    border: #1b1d1f 1px solid;
+    border-radius: 50%;
+}
+
+.scrollNavi__current p {
+    position: absolute;
+    font-size: 0;
+    line-height: 0;
+    transition: all 0.2s linear;
+}
+
+.scrollNavi {
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    z-index: 1;
+}
+
+.scrollNavi__current.js-white p.scrollNavi__current--border {
+    background: #fff;
+}
+
+.scrollNavi__current.js-white p.scrollNavi__current--circle {
+    background: #1b1d1f;
+    border: #fff 1px solid;
+}
+
+.thumbSlider {
+    margin-top: 30px;
+
+    .slick-slide {
+        outline: none !important;
+        img {
+            margin: 0 auto;
+            width: 84%;
+        }
+    }
+
+    &::first-child {
+        margin-top: 0;
+    }
+
+    &.thumbSlider-02 {
+        .slick-track {
+            left: 50%;
+        }
+    }
+}
+
+
+@media screen and (min-width: 1241px) {
+    .sp {
+        display: none !important;
+    }
+
+
+
+    .blueBtnContainer {
+        margin: 70px auto 30px;
+        width: 430px;
+        a {
+            padding: 16px;
+            display: block;
+            border: #2072fb 1px solid;
+            border-radius: 30px;
+            background: #2072fb;
+            box-sizing: border-box;
+            font-size: 16px;
+            line-height: 1.8;
+            font-weight: normal;
+            text-align: center;
+            text-decoration: none;
+            color: #fff;
+            transition: all 1s ease-out;
+            cursor: pointer;
+
+            &:hover {
+                background: #fff;
+                color: #2072fb;
+            }
+        }
+
+    }
+
+    .sliderNav {
+        margin: 0 auto;
+
+        img {
+            width: 48px;
+            margin: 0 auto;
+            display: block;
+        }
+    }
+
+    .osSlider1 {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+
+        img {
+            width: 162px;
+        }
+    }
+
+    .osSlider2 {
+        width: 100%;
+        height: auto;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+
+        img {
+            width: 162px;
+        }
+    }
+
+    .spTxtContainer {
+        display: none;
+    }
+
+    .osInnerContainerSp {
+        display: none;
+    }
+}
+
+@-webkit-keyframes mymove {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 200px;
+    }
+}
+
+@keyframes mymove {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 200px;
+    }
+}
+
+@media screen and (max-width: 1240px) and (min-width: 769px) {
+    .sp {
+        display: none !important;
+    }
+
+    .gallery-thumbs .swiper-slide {
+        width: 25%;
+        height: 100%;
+        opacity: 0.4;
+
+        img {
+            margin: 7px 0 auto;
+            width: 48px;
+            display: block;
+        }
+    }
+
+
+
+    .blueBtnContainer {
+        margin: 70px auto 30px;
+        width: 430px;
+
+        a {
+            padding: 16px;
+            display: block;
+            border: #2072fb 1px solid;
+            border-radius: 30px;
+            background: #2072fb;
+            box-sizing: border-box;
+            font-size: 16px;
+            line-height: 1.8;
+            font-weight: normal;
+            text-align: center;
+            text-decoration: none;
+            color: #fff;
+            transition: all 1s ease-out;
+            cursor: pointer;
+
+            &:hover {
+                background: #fff;
+                color: #2072fb;
+            }
+        }
+    }
+
+    .sliderNav {
+        margin: 0 auto;
+
+        img {
+            width: 38px;
+            margin: 0 auto;
+            display: block;
+        }
+    }
+
+    .osSlider1 {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+
+        img {
+            width: 120px;
+        }
+    }
+
+    .osSlider2 {
+        width: 100%;
+        height: auto;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+
+        img {
+            width: 120px;
+        }
+    }
+
+    .gallery-thumbs {
+        width: auto;
+    }
+
+    .spTxtContainer {
+        display: none;
+    }
+
+    .osInnerContainerSp {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    
+
+    .pc {
+        display: none;
+    }
+
+    .sliderNav {
+        margin: 0 auto;
+
+        img {
+            width: 38px;
+            margin: 0 auto;
+            display: block;
+        }
+    }
+
+    .blueBtnContainer {
+        margin: 18px auto 14px;
+        width: 270px;
+
+        a {
+            padding: 8px 0;
+            display: block;
+            border: #2072fb 1px solid;
+            border-radius: 30px;
+            background: #2072fb;
+            box-sizing: border-box;
+            font-size: 13px;
+            line-height: 1.8;
+            letter-spacing: 0.05em;
+            font-weight: normal;
+            text-align: center;
+            text-decoration: none;
+            color: #fff;
+            transition: all 1s ease-out;
+            cursor: pointer;
+
+            &:hover {
+                background: #fff;
+                color: #2072fb;
+            }
+        }
+    }
+
+
+
+    .thumbSlider {
+        margin-top: 20px;
+
+        .slick-slide {
+            outline: none !important;
+            img {
+                margin: 0 auto;
+                width: 84%;
+            }
+        }
+
+        &::first-child {
+            margin-top: 0;
+        }
+
+        &.thumbSlider-02 {
+            .slick-track {
+                left: 50%;
+            }
+        }
+    }
+}

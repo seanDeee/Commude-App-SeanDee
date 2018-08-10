@@ -1,0 +1,356 @@
+/**************************************
+	header
+***************************************/
+
+/**************************************
+	header
+***************************************/
+
+$fontFamily: Noto Sans Mono,
+sans-serif;
+
+
+.commude-logo {
+    max-width: 130px;
+    margin: 32.5px 35px;
+    float: left;
+}
+
+.commude-info {
+    max-width: 123px;
+    margin: 25px 43px;
+    float: right;
+}
+
+#header-container {
+    height: 900px;
+    margin: 0 auto;
+}
+
+.header-bg {
+    height: 900px;
+    background-image: url("../img/header-bg.png");
+    background-size: cover;
+    background-position: top;
+}
+
+
+#header-text {
+
+    .txt-pad-b {
+        padding-bottom: 40px;
+    }
+    h1 {
+        font-family: $fontFamily;
+        color: #ffffff;
+        font-size: 36px;
+        font-weight: 150;
+        line-height: 46px;
+        margin: 26px 0;
+    }
+    h2 {
+        font-family: $fontFamily;
+        padding-top: 24px;
+        font-size: 19px;
+        letter-spacing: 0.017px;
+        line-height: 0.89;
+    }
+    h3 {
+        padding-right: 8.5px;
+        float: left;
+        font-family: Roboto;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 200;
+        line-height: 17px;
+        text-align: left;
+    }
+
+    span.app-dev {
+        font-family: $fontFamily;
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 200;
+        line-height: 17px;
+        text-align: left;
+    }
+    p {
+        padding: 49px 0;
+        font-family: $fontFamily;
+        font-size: 15px;
+        font-weight: 150;
+        line-height: 33px;
+        text-align: left;
+    }
+
+    img {
+        padding-top: 50px;
+        max-height: 50px;
+        max-width: 330px;
+        margin-bottom: 271px;
+    }
+
+    a {
+        color: black;
+        opacity: 1;
+    }
+
+    a:hover {
+        opacity: 0.7;
+        transition: all .2s linear;
+    }
+    button {
+        background-color: #fff;
+        width: 330px;
+        height: 50px;
+        border-radius: 25px;
+        box-shadow: 0 0 #fff;
+        border: none;
+        cursor: pointer;
+        font-family: $fontFamily;
+        font-size: 16px;
+        font-weight: 200;
+        line-height: 17px;
+    }
+
+    font-family: $fontFamily;
+    padding-top: 323.5px;
+    padding-left: 11.84%;
+    padding-bottom: 400px;
+    color: white;
+}
+
+
+
+
+/******************************
+    header sp
+*******************************/
+
+@media only screen and (min-width: 768px) {}
+
+
+@media only screen and (max-width: 767px) {
+    #header-container {
+        margin: 0 auto;
+    }
+
+    .header-bg {
+        background-image: url("../img/mobile-bg.png");
+        background-size: cover;
+    }
+
+    #header-text {
+        .txt-pad-b {
+            padding-bottom: 40px;
+        }
+        h1 {
+            font-family: $fontFamily;
+            color: #ffffff;
+            font-size: 36px;
+            font-weight: 150;
+            line-height: 46px;
+            margin: 26px 0;
+        }
+        h2 {
+            font-family: $fontFamily;
+            padding-top: 24px;
+            font-size: 19px;
+            letter-spacing: 0.017px;
+            line-height: 0.89;
+        }
+        h3 {
+            padding-right: 8.5px;
+            float: left;
+            font-family: Roboto;
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: 200;
+            line-height: 17px;
+            text-align: left;
+        }
+
+        span.app-dev {
+            font-family: $fontFamily;
+            color: #ffffff;
+            font-size: 19px;
+            font-weight: 200;
+            line-height: 17px;
+            text-align: left;
+        }
+        p {
+            padding: 49px 0;
+            font-family: $fontFamily;
+            font-size: 15px;
+            font-weight: 150;
+            line-height: 33px;
+            text-align: left;
+        }
+
+        img {
+            padding-top: 50px;
+            max-height: 50px;
+            max-width: 330px;
+            margin-bottom: 271px;
+        }
+
+        a {
+            color: black;
+            opacity: 1;
+        }
+
+        a:hover {
+            opacity: 0.7;
+            transition: all .2s linear;
+        }
+        button {
+            background-color: #fff;
+            width: 330px;
+            height: 50px;
+            border-radius: 25px;
+            box-shadow: 0 0 #fff;
+            border: none;
+            cursor: pointer;
+            font-family: $fontFamily;
+            font-size: 16px;
+            font-weight: 200;
+            line-height: 17px;
+        }
+
+        font-family: $fontFamily;
+        padding-top: 323.5px;
+        padding-left: 11.84%;
+        padding-bottom: 400px;
+        color: white;
+    }
+
+    .section-white {
+        width: 100%;
+        height: auto;
+        background-color: #fff;
+        padding-top: 59.5px;
+
+        h1 {
+            font-family: $fontFamily;
+            color: #0d0e0e;
+            font-size: 30px;
+            font-weight: 150;
+            line-height: 17px;
+            text-align: center;
+            padding-bottom: 20.5px;
+        }
+
+        p {
+            text-align: center;
+            font-family: $fontFamily;
+            color: #424242;
+            font-size: 16px;
+            font-weight: 150;
+            line-height: 27px;
+        }
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    /****************
+    Header
+    ***************/
+    header {
+        .commude-logo {
+            max-width: 86.5px;
+            margin: 32.5px 35px;
+            float: left;
+        }
+
+        .commude-info {
+            max-width: 95px;
+            margin: 26px 25px;
+            float: right;
+        }
+
+
+        #header-text {
+            .txt-pad-b {
+                padding-bottom: 40px;
+            }
+            h1 {
+                font-family: $fontFamily;
+                color: #ffffff;
+                font-size: 24px;
+                font-weight: 150;
+                line-height: 36px;
+                margin: 26px 0;
+            }
+            h3 {
+                font-size: 14px;
+                font-weight: 200;
+                padding-bottom: 15px;
+                padding-right: 8.5px;
+                float: left;
+                font-family: Roboto;
+                color: #ffffff;
+                line-height: 30px;
+                text-align: left;
+
+            }
+
+            span.app-dev {
+                font-family: $fontFamily;
+                color: #ffffff;
+                font-size: 19px;
+                font-weight: 200;
+                line-height: 17px;
+                text-align: left;
+            }
+            p {
+                padding: 49px 0;
+                font-family: $fontFamily;
+                font-size: 15px;
+                font-weight: 150;
+                line-height: 33px;
+                text-align: left;
+            }
+
+            img {
+                padding-top: 50px;
+                max-height: 50px;
+                max-width: 330px;
+                margin-bottom: 271px;
+            }
+
+            a {
+                color: black;
+                opacity: 1;
+            }
+
+            a:hover {
+                opacity: 0.7;
+                transition: all .2s linear;
+            }
+            button {
+                background-color: #fff;
+                width: 100%;
+                height: 50px;
+                border-radius: 25px;
+                box-shadow: 0 0 #fff;
+                border: none;
+                cursor: pointer;
+                font-family: $fontFamily;
+                font-size: 16px;
+                font-weight: 200;
+                line-height: 17px;
+            }
+
+            font-family: $fontFamily;
+            padding-top: 323.5px;
+            padding-left: 11.84%;
+            padding-right: 11.84%;
+            padding-bottom: 400px;
+            color: white;
+        }
+    }
+} //end of header
+/******************************
+    header sp
+*******************************/
+
