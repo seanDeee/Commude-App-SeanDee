@@ -38,4 +38,4 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 
 ### Demo 
-Click this link to view the demo: https://seandeee.github.io/Commude-App-SeanDee/
+Click this link to view the demo: https://seandeee.github.io/Commude-App-Seandee/
